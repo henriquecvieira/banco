@@ -3,20 +3,20 @@ var database = require("./database")
 
 
 
-// database.insert(dados).into("games").then(data => {
-//     console.log(data)
-// }).catch(err => {
-//     console.log(err)    
-// })
+
+// var dados = [
+//     {
+//     name: "Call of Duty of Thieves",
+//     price: 90.01
+//     },
+//     {
+//         name: "Minecraft",
+//         price: 56.06
+//     },
+//     {
+//         name: "resident evil",
+//         price: 75.03
+//     }
+// ]
 
 
-//NESTED QUERIES
-// database.insert({name: "mists of moyah", price: 49}).into("games").then(data => {
-//     database.select().table(["id", "price"]).table("games").then(data => {
-//         console.log(data)
-//     }).catch(err => {
-//         console.log(err)
-//     })        
-// }).catch(err => {
-//     console.log(err)    
-// })
