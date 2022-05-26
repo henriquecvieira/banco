@@ -1,7 +1,7 @@
 var database = require("./database")
 
 database.insert(
-    {name: "sid",  price: 132.90 })
+    {name: "Wow",  price: 120.90 })
 .into("games").then(data => {
     console.log(data)
 }).catch(err => {

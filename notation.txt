@@ -1,0 +1,7 @@
+tipos de relacionamento
+
+1 para 1
+1 para many
+many para many
+
+para utilizar o set null o campo deve admitir null
