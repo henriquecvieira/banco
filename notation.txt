@@ -1,9 +1,14 @@
 tipos de relacionamento
 
 1 para 1
+
 1 para many
  quando vários dados podem pertence a um certo dado
 
 many para many
+um game pode ser feito por multiplos estudios e um estudio pode ter multiplos games
+
+
+
 
 para utilizar o set null o campo deve admitir null
